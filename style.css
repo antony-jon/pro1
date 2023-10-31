@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  
+  color: orange;
+  background-image: url('https://www.kapwing.com/resources/content/images/2021/09/aesthetic-halloween-wallpaper-4.png');
+  
+  background-size: fit;
+}
+
+header {
+  background-color: black;
+  
+  padding: 20px;
+  text-align: center;
+ 
+
+
+}
+h3{
+  background-color: black;
+  color:orangered;
+}
+
+
+h1 {
+  margin: 0;
+  color: orange;
+  font-family: 'Bungee Inline', cursive;
+}
+
+.movie-section {
+  
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-section img {
+  max-width: 100%;
+  height: auto;
+}
+ @keyframes blink {
+   0%, 100% { opacity: 1; }
+   50% { opacity: 0; }
+ }
+
+ .spooky-border {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 5px solid black;
+  box-sizing: border-box;
+ }
+
+ .spooky-border::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), transparent 50%);
+  animation: blink 1s infinite;
+ }
+a{
+  background-color: black;
+  color:orange;
+  font-size:25px;
+}
